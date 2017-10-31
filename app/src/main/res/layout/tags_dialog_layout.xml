@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#5ededede"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Tags"
+            android:textSize="25sp"
+            android:textColor="#5ed446"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#5ed446"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.anton46.collectionitempicker.CollectionPicker
+            android:id="@+id/tags_dialog_tags"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:cp_addIcon="@android:drawable/ic_menu_add"
+            app:cp_cancelIcon="@android:drawable/ic_menu_close_clear_cancel"
+            app:cp_itemBackgroundNormal="#76cc61"
+            app:cp_itemBackgroundPressed="#3b6631"
+            app:cp_itemMargin="5dp"
+            app:cp_textPaddingBottom="5dp"
+            app:cp_textPaddingLeft="10dp"
+            app:cp_textPaddingRight="10dp"
+            app:cp_textPaddingTop="5dp"
+            app:cp_simplified="false" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/tags_dialog_tags_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

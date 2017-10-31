@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/bottom_nav_bold"
+        android:icon="@drawable/bold"
+        app:showAsAction="ifRoom"
+        android:title="Bold"
+        android:enabled="true"/>
+    <item android:id="@+id/bottom_nav_italic"
+        android:icon="@drawable/pns"
+        app:showAsAction="ifRoom"
+        android:title="Bold"
+        android:enabled="true"/>
+    <item android:id="@+id/bottom_nav_under_line"
+        android:icon="@drawable/camera"
+        app:showAsAction="ifRoom"
+        android:title="Bold"
+        android:enabled="true"/>
+    <item android:id="@+id/bottom_nav_font"
+        android:icon="@drawable/pencil"
+        app:showAsAction="ifRoom"
+        android:title="Bold"
+        android:enabled="true"/>
+    <item android:id="@+id/bottom_nav_true"
+        android:icon="@drawable/true_sign"
+        app:showAsAction="ifRoom"
+        android:title="Bold"
+        android:enabled="true"/>
+    <!--<item android:id="@+id/bottom_nav_options"-->
+        <!--android:icon="@drawable/more"-->
+        <!--app:showAsAction="ifRoom"-->
+        <!--android:title="Bold"-->
+        <!--android:enabled="true"/>-->
+
+
+</menu>
