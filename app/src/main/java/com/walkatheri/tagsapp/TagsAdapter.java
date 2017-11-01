@@ -10,9 +10,6 @@ import android.widget.CompoundButton;
 
 import java.util.ArrayList;
 
-/**
- * Created by abdulaziz on 4/23/17.
- */
 
 public class TagsAdapter extends RecyclerView.Adapter<TagsAdapter.ViewHolder>{
 
