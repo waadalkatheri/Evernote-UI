@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by abdulaziz on 4/20/17.
+ * Created by waad on 4/20/17.
  */
 
 public class TagsDialog extends Dialog{
